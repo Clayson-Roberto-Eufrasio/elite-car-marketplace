@@ -36,7 +36,7 @@ export const cars: Car[] = [
     mileage: 5000,
     transmission: 'Automático',
     fuel: 'Híbrido',
-    imageUrl: 'https://images.unsplash.com/photo-1606148334070-d26343513d3c?q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
     description: 'O ápice do conforto e tecnologia SUV.',
     category: 'Luxo'
   }
