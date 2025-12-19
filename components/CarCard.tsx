@@ -1,4 +1,5 @@
 import { Car } from "@/types/car";
+import Link from "next/link";
 
 interface CarCardProps {
   car: Car;
@@ -51,9 +52,12 @@ export default function CarCard({ car }: CarCardProps) {
           <p className="text-2xl font-black text-emerald-600 dark:text-emerald-500">
             {priceFormatter.format(car.price)}
           </p>
-          <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition-colors">
+          <Link
+            href={`/veiculo/${car.id}`}
+            className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition-colors"
+          >
             Ver Detalhes
-          </button>
+          </Link>
         </div>
       </div>
     </div>
