@@ -1,6 +1,7 @@
 import { cars } from "@/lib/cars-data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import AddToCartButton from "@/components/AddToCartButton";
 
 // Essa função gera o conteúdo da página com base no ID da URL
 export default async function DetalhesVeiculo({ params }: { params: { id: string } }) {
@@ -67,9 +68,8 @@ export default async function DetalhesVeiculo({ params }: { params: { id: string
               </div>
             </div>
 
-            <button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-4 rounded-xl font-bold text-lg shadow-lg transition-all active:scale-95">
-              Tenho Interesse / Adicionar ao Carrinho
-            </button>
+            <AddToCartButton car={car} />
+
           </div>
         </div>
 
