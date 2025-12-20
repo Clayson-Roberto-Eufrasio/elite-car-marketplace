@@ -39,5 +39,57 @@ export const cars: Car[] = [
     imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
     description: 'O ápice do conforto e tecnologia SUV.',
     category: 'Luxo'
+  },
+  {
+    id: '4',
+    brand: 'Range Rover',
+    model: 'Vogue Edition',
+    year: 2023,
+    price: 1200000,
+    mileage: 5000,
+    transmission: 'Automático',
+    fuel: 'Híbrido',
+    imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
+    description: 'O ápice do conforto e tecnologia SUV.',
+    category: 'Luxo'
+  },
+  {
+    id: '5',
+    brand: 'Range Rover',
+    model: 'Vogue Edition',
+    year: 2023,
+    price: 1200000,
+    mileage: 5000,
+    transmission: 'Automático',
+    fuel: 'Híbrido',
+    imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
+    description: 'O ápice do conforto e tecnologia SUV.',
+    category: 'Luxo'
+  },
+  {
+    id: '6',
+    brand: 'Range Rover',
+    model: 'Vogue Edition',
+    year: 2023,
+    price: 1200000,
+    mileage: 5000,
+    transmission: 'Automático',
+    fuel: 'Híbrido',
+    imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
+    description: 'O ápice do conforto e tecnologia SUV.',
+    category: 'Luxo'
+  },
+  {
+    id: '7',
+    brand: 'Range Rover',
+    model: 'Vogue Edition',
+    year: 2023,
+    price: 1200000,
+    mileage: 5000,
+    transmission: 'Automático',
+    fuel: 'Híbrido',
+    imageUrl: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800',
+    description: 'O ápice do conforto e tecnologia SUV.',
+    category: 'Luxo'
   }
 ];
