@@ -3,6 +3,7 @@
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
 import dynamic from 'next/dynamic';
+import Image from "next/image";
 
 /**
  * Página de Carrinho (CarrinhoPage)
@@ -48,11 +49,16 @@ function CarrinhoPage() {
               >
                 {/* Informações do Veículo */}
                 <div className="flex items-center gap-4">
-                  <img
-                    src={car.imageUrl}
-                    alt={car.model}
-                    className="w-24 h-16 object-cover rounded-lg shadow-inner"
-                  />
+                  <div className="relative w-24 h-16 flex-shrink-0">
+                    {/* Criamos uma div pai com 'relative' para o Image 'fill' funcionar */}
+                    <Image
+                      src={car.imageUrl}
+                      alt={car.model}
+                      fill
+                      className="object-cover rounded-lg shadow-inner"
+                      sizes="96px" // Indica ao Next o tamanho aproximado (w-24 = 96px)
+                    />
+                  </div>
                   <div>
                     <h3 className="font-bold text-lg leading-tight">{car.brand} {car.model}</h3>
                     <p className="text-emerald-600 dark:text-emerald-400 font-bold">

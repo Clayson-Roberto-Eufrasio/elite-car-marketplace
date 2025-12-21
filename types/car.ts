@@ -10,5 +10,5 @@ export interface Car {
   fuel: 'Gasolina' | 'Flex' | 'Híbrido' | 'Elétrico';
   imageUrl: string;        // Link da foto
   description: string;     // Texto descritivo
-  category: 'Sedan' | 'Esportivo' | 'SUV' | 'Luxo';
+  category: string; // Categorias
 }
