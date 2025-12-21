@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Markdown
 
-## Getting Started
+# 🏎️ Elite Car Marketplace
 
-First, run the development server:
+![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-emerald)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwind-css)
 
-```bash
+A **Elite Car** é um marketplace de veículos de luxo de alta performance, focado em oferecer uma experiência de usuário (UX) fluida, moderna e exclusiva. Desenvolvido com as tecnologias mais recentes do ecossistema React/Next.js.
+
+---
+
+## ✨ Funcionalidades
+
+- 🔍 **Busca em Tempo Real:** Filtragem dinâmica por marca, modelo ou categoria.
+- 🛒 **Carrinho de Reservas:** Sistema de gerenciamento de pedidos com persistência de dados via Zustand.
+- 📱 **Design Mobile-First:** Menu hambúrguer animado e interface totalmente responsiva.
+- 🎭 **Animações Fluídas:** Transições de página e micro-interações utilizando Framer Motion.
+- 🌓 **Dark Mode Suportado:** Interface adaptável para temas claros e escuros.
+- 🗺️ **Deep Linking:** Filtros de categoria integrados diretamente via parâmetros de URL.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+- **Estado Global:** [Zustand](https://zustand-demo.pmnd.rs/)
+- **Animações:** [Framer Motion](https://www.framer.com/motion/)
+- **Linguagem:** TypeScript
+- **Ícones:** Lucide React / HeroIcons
+
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Clayson-Roberto-Eufrasio/elite-car-marketplace.git](https://github.com/Clayson-Roberto-Eufrasio/elite-car-marketplace.git)
+Instale as dependências:
+
+Bash
+
+npm install
+Inicie o servidor de desenvolvimento:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra http://localhost:3000 no seu navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👨‍💻 Desenvolvedor
+Este projeto foi desenvolvido com dedicação para portfólio, focando em boas práticas de componentização e performance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+"A qualidade é o que acontece quando ninguém está olhando." - Elite Car Marketplace
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
