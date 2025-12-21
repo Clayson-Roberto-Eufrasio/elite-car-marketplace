@@ -24,7 +24,7 @@ function Header() {
         {/* NAVEGAÇÃO DESKTOP (Escondida no Mobile) */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-600 dark:text-zinc-400">
           <Link href="/" className="hover:text-emerald-500 transition-colors">Estoque</Link>
-          <Link href="#" className="hover:text-emerald-500 transition-colors">Sobre Nós</Link>
+          <Link href="/sobre" className="hover:text-emerald-500 transition-colors">Sobre Nós</Link>
           <Link href="#" className="hover:text-emerald-500 transition-colors">Contato</Link>
         </nav>
 
@@ -74,7 +74,7 @@ function Header() {
                   ESTOQUE
                 </Link>
                 <Link
-                  href="#"
+                  href="/sobre"
                   onClick={() => setIsMenuOpen(false)}
                   className="text-3xl font-black text-zinc-800 dark:text-zinc-100 hover:text-emerald-500 transition-colors"
                 >
